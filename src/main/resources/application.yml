@@ -1,0 +1,13 @@
+# SPS Database Configuration
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://sas5198sas:sas5198sas@cluster0.8qrqj.mongodb.net/kitchen-sink-db
+#      uri: mongodb+srv://sas5198sas:sas5198sas@cluster0.8qrqj.mongodb.net/movie-api-db
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb: DEBUG
